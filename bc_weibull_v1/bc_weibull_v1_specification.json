@@ -1,0 +1,26 @@
+{
+  "model_type": "weibull",
+  "encrypted_coefficients": "Mqqw1S1lcTO8Dl6hdNVmw5sho6QGdOkiS9qmpNum/Hen6PZDXXo5beB2npjYj9fE9uzY7u6wOf+gVc6WFGJG2nSFOjpBeVx+5jDi5WpRM1Pu8hVC/ucSvT1eHNcFuyJTNFY8T+i02+hH34t83iJ5IEceAtzq98nAtQC4+sTpLWqpsyDNiIY=",
+  "encryption_iv": "Kq2KQ77DYEQcbTtr",
+  "preprocessing": null,
+  "model_parameters": {
+    "timepoints": [60, 120],
+    "shape": 0.9687585968,
+    "parameterisation": "aft"
+  },
+  "metadata": {
+    "model_id": "bc_weibull_v1",
+    "model_name": "Breast Cancer Relapse-Free Survival (Weibull) v1",
+    "version": "1.0",
+    "outcome_type": "survival",
+    "variables": [
+      "age",
+      "nodes",
+      "pr",
+      "er",
+      "hormon"
+    ],
+    "description": "Weibull accelerated failure time (AFT) model for relapse-free survival in breast cancer. Developed in the development set (val == 0, n = 1,546) of bc_survival_example. Predictors: age, number of positive nodes, progesterone receptor, oestrogen receptor, hormonal therapy. Timepoints: 60 months (5 years) and 120 months (10 years).",
+    "encryption": "aes256gcm"
+  }
+}

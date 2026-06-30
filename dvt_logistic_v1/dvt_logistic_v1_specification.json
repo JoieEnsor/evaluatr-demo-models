@@ -1,0 +1,23 @@
+{
+  "model_type": "logistic",
+  "encrypted_coefficients": "oGSjZYc2+k0beI7m9ICMMidyy5kP5hzpuFPt3Zi4DeL/sSXruo4KHCBfAl0zB5yhD2gLCGotvZTG5NEm/0qTFUcDBwCjIXcju2ZFSawLo2bvsnuJUKzBsmxPf1VS/FqWaOZ1aIyhnV2HwOvbsGIgat2Xf9Ll1wZ/kYRiYHoA5cJO5POGXrmpndD1NnCoRAufLTPidMy4JbhgSU/DB+a57lZk3mcWmrh0cM0RaowlKaTKVVxWAtg+wXUuXbRDlw==",
+  "encryption_iv": "TzzY9A99Rvbhw/s7",
+  "preprocessing": null,
+  "model_parameters": null,
+  "metadata": {
+    "model_id": "dvt_logistic_v1",
+    "model_name": "DVT Diagnosis Logistic Regression v1",
+    "version": "1.0",
+    "outcome_type": "binary",
+    "variables": [
+      "male",
+      "ab_ddimer",
+      "calf_diff",
+      "vein_distension",
+      "malignancy",
+      "immobile"
+    ],
+    "description": "Logistic regression model for diagnosing deep vein thrombosis (DVT) from clinical signs and simple laboratory results. Developed in studies 1-5 of the dvt_example dataset (n = 7,370). Predictors: sex, D-dimer, calf circumference difference, vein distension, malignancy, immobility.",
+    "encryption": "aes256gcm"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model_type": "cox",
+  "encrypted_coefficients": "0B2OtdKDsxCwLrZma+kSJFynwfeOZtx2izYFeS5L858SiFqz776EGEn0HOPV23D1iQwNL72qdBLL8m5gSlRAAWiVTNchMiHQ/DCbLeZS9cZqTfD1oH6L5Wui0D7hpWIbodKO/mriWb/du9c=",
+  "encryption_iv": "CQqcbaBH8W2Jki8R",
+  "preprocessing": null,
+  "model_parameters": {
+    "timepoints": [60, 120],
+    "baseline_survival": [0.5845171529, 0.43200888612]
+  },
+  "metadata": {
+    "model_id": "bc_cox_v1",
+    "model_name": "Breast Cancer Relapse-Free Survival (Cox) v1",
+    "version": "1.0",
+    "outcome_type": "survival",
+    "variables": [
+      "age",
+      "nodes",
+      "pr",
+      "er",
+      "hormon"
+    ],
+    "description": "Cox proportional hazards model for relapse-free survival in breast cancer. Developed in the development set (val == 0, n = 1,546) of bc_survival_example. Predictors: age, number of positive nodes, progesterone receptor, oestrogen receptor, hormonal therapy. Timepoints: 60 months (5 years) and 120 months (10 years).",
+    "encryption": "aes256gcm"
+  }
+}

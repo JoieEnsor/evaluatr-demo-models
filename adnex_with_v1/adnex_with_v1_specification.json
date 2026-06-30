@@ -1,0 +1,28 @@
+{
+  "model_type": "multinomial",
+  "encrypted_coefficients": "EXy1qiuLi1PmnE+b2cY2sKd0uIFI1CxCDZPXQsKMQtV17ibOvM1XlK4g/7FwSQZ7yviF1xvFTpkrH5JJmsT3JGI1KapGGIqWeZ/IRVVvuXov4swUH+wOWRWTP6qZsP3m1/Q+A4Ko6yJhzshywtWmUbFvmdNrCGRYHFG9pYYU2Mx9KEBkC+EK5O+0CRadwNp9uEOsnW7Yy3jv7ZH/khfTNXo1NWmV0TMo7koz63Uu26+s8HzjS5UPXQIKA4lq87lSrtUj31UMMG8kkLB8gpSRXvUw9OwVFOs8wWwhyGEQjmwjG0LcAzZ78x3zh1uXXzZGJL0vbtG4eOJiZQZxxK/XeMqI/SezPx1El3XmGwRDeSQKjr6bGY0n/WLJZtvvM8Ci0B4gKo9oO0/GfycxD/8IOmczWKlaWaob2OW0cLcX+ujsA04w2FHjEm1hpYbZ1YHD6cj+VVghJHgxgzoLRplzWsQGXLEeWQroiasnr8tpC0xaLV6gSiNzXHxCT7u80U7slMAEh/AXDTC0eHmGvOI3nmcTM4K8IK9gYAJEGx7UBSdQSrdZAyiuxWfVLhMaAQdXR4UsKSibOGMwAp/vMpBNKeBPRC3Uw53b/3TCsjZUAOwdOnUYlarShH8D7owj3mPo1XOTwa7BIY4xzsQAZ+bXYbczIxWlu8+shpTx0hKptGLPm2v0DGw7ao89B2UWYQk7FdOBSAOLYRSn74BJxYEzWQ/We34QpDw4eoibksPafcsWuckTZPTqokDEZG5H0legV43G4r+JnhglE2MixiDzSwUnOl4+L3EN4lgclSYmZ1bs4iUrQhW7YE3UNL5DFOWtSfxiRMSjeKsPqcRuzRikKrxSvn+V5C4lIcjgywUovjalywJpau7tMqV4kIW3whiW5fP7NZO2QLi/tjPY9UiCXkKmgG5Tl5xIMmuluTjiLwulI1a66unpikiXIhBhT+i1obn5fBEVox2/dj/jKiSlu8e2497lek2qOjCsbNPvOODTRzjWv3/PswKUhM8rj71JnJUP2Kq9vzStsQoUSD4Rk0Ci2gsWAyMO8o4CPb06F9cNmLDDXbQmRrLnK1VdZNqZAFWlpYGCENSVzLcSBeqAsWfYfNXMh4ECP5wu7z77Kgl9H4f19QXc9s+0UCQ8lBu+MH34R2kLP8ZKMY55oWNRUAVVhIYIyT9t+YUSphW95xDhDBPkgL/1nnrXweEW559Vnt9nGo/bgMMmk957IX7qlF0ixRFGyYg3RNz4++M7GyQs84PP5UfMRzJB5GQym8hiviymBZneOJLgvPxShHJpvE2jGAVNOViVqstc5ddwYqi9nggIKVERhPzBPyJYuHj9auBe+4jTTKOfT3AM2Hscxb446/Mkt5dlcs9sEhhnPz9rvvKhqyt94Wc+Keg3B1ELybwjqTOJ8FxWmH9KchEsYUn/FTVkQyVGPXLtsMcIe9NqEWUherkl3R3affsDXPNhgVJvqfnwi/4g9gxlIDmzsnvv2FHHjBI4rjGx+EGuNs0G2xoED6mZ2X1f9lJ0iy43/D89S9SrYPGNY5H22zmT5HMVgMlQcGRXzSBqnk5EypOocCLwuNCWrqJ+/kd0Rv4SmonYvAoCyikAhCTp/jGekmrLep/XmwWrLJ1/5p2Oe/yXr4Ms/qsKFMAivrQbHu4q2OE7ma5tjta2Iv4KCmcBe9sh79T7TbZCcap22sSzHeluUROKR0PYdSOTxWADLwcrb02D6cBGUWdo8PRsh7iatZLwsL4NpWikBK08J+SC+dpbLiyMANQChBlQxpDlGd7RkTkeHhyd",
+  "encryption_iv": "DB34QmheCMkMhfWg",
+  "preprocessing": "validation_data$log2_ca125 <- log2(validation_data$ca125)\nvalidation_data$log2_max_diam_lesion <- log2(validation_data$max_diam_lesion)\nvalidation_data$prop_solid_sq <- validation_data$prop_solid^2",
+  "model_parameters": null,
+  "metadata": {
+    "model_id": "adnex_with_v1",
+    "model_name": "ADNEX with CA-125 v1",
+    "version": "1.0",
+    "outcome_type": "multinomial",
+    "variables": [
+      "age",
+      "log2_ca125",
+      "log2_max_diam_lesion",
+      "prop_solid",
+      "prop_solid_sq",
+      "locules_gt_10",
+      "papillary_count",
+      "acoustic_shadows",
+      "ascites",
+      "oncology_center"
+    ],
+    "description": "ADNEX multinomial logistic regression model for classifying ovarian masses into five categories. Reference category: benign. Non-reference categories: borderline, stage_I, stage_II_IV, metastatic. Uses CA-125. Van Calster et al. BMJ 2014. doi:10.1136/bmj.g5920",
+    "reference_category": "benign",
+    "encryption": "aes256gcm"
+  }
+}
