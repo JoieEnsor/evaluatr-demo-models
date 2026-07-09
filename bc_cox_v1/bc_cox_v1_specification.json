@@ -1,7 +1,7 @@
 {
   "model_type": "cox",
-  "encrypted_coefficients": "0B2OtdKDsxCwLrZma+kSJFynwfeOZtx2izYFeS5L858SiFqz776EGEn0HOPV23D1iQwNL72qdBLL8m5gSlRAAWiVTNchMiHQ/DCbLeZS9cZqTfD1oH6L5Wui0D7hpWIbodKO/mriWb/du9c=",
-  "encryption_iv": "CQqcbaBH8W2Jki8R",
+  "encrypted_coefficients": "mM4Y+cAiV4/KyUgT9/ufm6Dm13zRqZQ2nkIx/bJDzXzyDZ1SNtKr3MIEttfsTQOd3S+Weuf8flq8lGJXpyIAFkL1QmgJR5uDD3xPoDp9vCkZPAvSPwe9GWSZ9tPeB67xsASbpPokMp47",
+  "encryption_iv": "P8+3UNSlW3cf1hM1",
   "preprocessing": null,
   "model_parameters": {
     "timepoints": [60, 120],

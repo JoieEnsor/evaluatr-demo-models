@@ -1,7 +1,7 @@
 {
   "model_type": "weibull",
-  "encrypted_coefficients": "Mqqw1S1lcTO8Dl6hdNVmw5sho6QGdOkiS9qmpNum/Hen6PZDXXo5beB2npjYj9fE9uzY7u6wOf+gVc6WFGJG2nSFOjpBeVx+5jDi5WpRM1Pu8hVC/ucSvT1eHNcFuyJTNFY8T+i02+hH34t83iJ5IEceAtzq98nAtQC4+sTpLWqpsyDNiIY=",
-  "encryption_iv": "Kq2KQ77DYEQcbTtr",
+  "encrypted_coefficients": "redzkfiLJ3DSI6EfwWVe3RucPuEsQvivJF+K28SFmkNU1zYxKe0BovwdbpcPfVmSQ1tfGosTeOyx0qYrsqEdgWRQg8cMJlj0W8IvFbukrmPQUBp6H/J/hKaO+rrBgdr4jToIHZyuSJwQ/DuNslFpuqFcUu4pCTx4km9WQPoW17CUfXEL",
+  "encryption_iv": "R3tiVr/ZcPMI5F4Y",
   "preprocessing": null,
   "model_parameters": {
     "timepoints": [60, 120],
