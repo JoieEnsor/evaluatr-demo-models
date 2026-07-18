@@ -1,7 +1,7 @@
 {
   "model_type": "logistic",
-  "encrypted_coefficients": "K21/MC0S7JQThkthgNdCYxMN4eR9AwMivnTswrV9FRsIWCkPnwB4+uHOOgSRNorGntC3Z8M48JxWlzJ/Rk4eJNBYLz3RE1yqYdhuYdEftMNj6LvN4Tmjz4L0hgnBtZy0BOlstNaTubfmUckbRRttorHfnE8JSa/WHBhXCehXB2slVvizFR9Jh6wKpf6ugeJUv7NY+z1pScSgqnYaAv6qg/E0G9fKWciiyvmlDaJNvyomKHDwAC2CFok=",
-  "encryption_iv": "8DNqXptG2T0pg6tB",
+  "encrypted_coefficients": "aU7vhqedRyP5o8PLMgobDlQaBHwD+9iHeFLc+fvBFDs7RHa1wG/3iskQxLB0DPRu2HJiD0dCk8i9Vc0SG/G5B0fhW5dRTzp0OanXoYiYEbuVxyCXV0VcBxjvZqJXT4cY6sheh8KSVCbp8IJr2Q1ZpR/Xn7MwREGSWZuBDu9O3bEIxs7N9iYLwyxOG0ETwL58ZSzR4+C/4CieZBAJTWMa1mJFeWqvN5xtBuazaCVWxstnh+NDinLVyOv5yV4EiQ==",
+  "encryption_iv": "PNJ/TAcQYFIxK77l",
   "preprocessing": null,
   "model_parameters": null,
   "metadata": {
